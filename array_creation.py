@@ -10,3 +10,9 @@ print(array2)
 print(array3)
 print(array4)
 print(array5)
+
+I = np.zeros((5,5))
+I[np.arange(5),np.arange(5)] += 1
+print(I)
+
+print(np.eye(5))
