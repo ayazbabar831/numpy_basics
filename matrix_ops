@@ -1,15 +1,15 @@
 import numpy as np
 
-# A = np.random.randint(1,10,(5,5))
-# B = np.random.randint(1,10,(5,5))
-# print(A)
-# print(B)
-# AT = A.T
-# A_Inverse = np.linalg.inv(A)
-# print(A@B)
-# print(A@AT)
-# print(A@A_Inverse)
+A = np.random.randint(1,10,(5,5))
+B = np.random.randint(1,10,(5,5))
+print(A)
+print(B)
+AT = A.T
+A_Inverse = np.linalg.inv(A)
+print(A@B)
+print(A@AT)
+print(A@A_Inverse)
 
 array = np.random.randint(1,20,(3,3))
 print(array)
-print(array[[True,False,True],[True,False,True]])
+print(array[[True,False,True]])

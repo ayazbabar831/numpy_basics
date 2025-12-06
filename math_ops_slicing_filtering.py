@@ -16,5 +16,5 @@ print(a[(a>60)]) #boolean filtering
 
 a2 = np.random.randint(1,10,(10,10))
 print(a2)
-print(a2[3,3])
-print(a2[3:7,3:7])
+print(a2[3,3]) #indexing
+print(a2[3:7,3:7]) #slicing
